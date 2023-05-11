@@ -49,6 +49,6 @@ Import successful. Temporary Victoria Metrics URL is:http://localhost:8052.
 
 
 ## Test Environment
-* OS: Ubuntu v22.04
+* OS: Ubuntu 22.04.2 LTS
 * Python: v3.10.6
 * Victoria Metrics: v1.90.0
