@@ -31,7 +31,7 @@ def export_metrics_json(url, selectors, start, end, output_file):
     if is_rfc3339_time(str(end)):
        end = rfc3339_to_timestamp(str(end))
 
-    # Set the query parameters for the metrics you want to export to CSV
+    # Set the query parameters for the metrics you want to export to json
     params = {
         'match[]': selectors,
         'start': start,
